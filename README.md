@@ -1,4 +1,4 @@
-Will McFadden (wmcfadden on GitHub)
+Will McFadden (wmcfadden)
 
 
 quantum-comp
