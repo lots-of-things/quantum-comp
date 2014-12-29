@@ -4,8 +4,8 @@ function [ NOT ] = NOT_gate( hIndex, N )
     if(hIndex>N)
         N=hIndex;
     end
-    hgate = [0 1; 1 0];
-    NOT = gate_recur(hIndex, N, hgate, 1);
+    notgate = [0 1; 1 0];
+    NOT = gate_recur(hIndex, N, notgate, 1);
 
 end
 

@@ -1,19 +1,6 @@
 function [game] = startGame(gamebits)
+global hit
+hit = randi(2^gamebits);
 
-    superpose = [1; zeros(2^6-1,1)];
-    superpose = superpose/norm(superpose);
-    
-    for i=1:3
-        superpose = H_gate(i,gamebits+3)*superpose;
-    end
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    game = superpose;
+    game = [1; zeros(2^gamebits-1,1)];
 end
